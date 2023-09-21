@@ -4,7 +4,7 @@ import Dialog from "@mui/material/Dialog"; // Import Dialog component
 import DialogTitle from "@mui/material/DialogTitle"; // Import DialogTitle component
 import Button from "@mui/material/Button"; // Import Button component
 
-function SignUp() {
+function Signup() {
   const [form, setForm] = useState({
     name: "",
     password: "",
@@ -96,4 +96,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default Signup;
